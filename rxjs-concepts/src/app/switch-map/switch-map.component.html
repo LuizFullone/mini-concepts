@@ -1,1 +1,11 @@
-<p>switch-map works!</p>
+<form class="example-form" [formGroup]="form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Favorite food</mat-label>
+    <input formControlName="foodName" matInput placeholder="Ex. Pizza">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Leave a comment</mat-label>
+    <textarea formControlName="comment" matInput placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+</form>
